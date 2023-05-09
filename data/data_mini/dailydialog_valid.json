@@ -1,0 +1,1888 @@
+{
+    "va_980": [
+        [
+            {
+                "turn": 1,
+                "speaker": "A",
+                "utterance": "Mr . Bryant ? Hi , I'm Mike from Florence Incorporated . I'll glad you made it okay . How was your flight ?",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 2,
+                "speaker": "B",
+                "utterance": "It was pretty bumpy , also a bit long , all together about 5 hours .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 3,
+                "speaker": "A",
+                "utterance": "That is a long flight . You had a layover too , is that right ? You must be tired .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 4,
+                "speaker": "B",
+                "utterance": "Actually I feel quite rested . I was able to sleep on the plane .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 5,
+                "speaker": "A",
+                "utterance": "Good ! Here , let me help you with your bag . Is it your first time to Seattle ? I'd be happy to take you around this city and show you the sights tonight if you're up to it .",
+                "emotion": "happiness",
+                "explanation": "The person shows happiness to make the customer feel good. In other words, the person is happy to server his customers.",
+                "expanded emotion cause evidence": [
+                    4,
+                    5
+                ],
+                "expanded emotion cause span": [
+                    "Actually I feel quite rested . I was able to sleep on the plane .",
+                    "happy to take you around this city and show you the sights tonight if you're up to it ."
+                ],
+                "type": [
+                    "no-context",
+                    "inter-personal"
+                ]
+            },
+            {
+                "turn": 6,
+                "speaker": "B",
+                "utterance": "That will be very nice . You're too kind .",
+                "emotion": "happiness",
+                "expanded emotion cause evidence": [
+                    5
+                ],
+                "expanded emotion cause span": [
+                    "happy to take you around this city and show you the sights tonight if you're up to it ."
+                ],
+                "type": [
+                    "inter-personal"
+                ]
+            },
+            {
+                "turn": 7,
+                "speaker": "A",
+                "utterance": "I've already made a hotel reservation for you , let's go to the hotel first and drop off your things . Then , I'd like to have a drink so that we can get better acquainted . I've booked a table at an exclusive restaurant downtown . Afterwards , I've made arrangements to take you to see the city lights . Seattle ' s nightlife can be really quite exciting . How does that schedule sound to you ?",
+                "emotion": "happiness",
+                "expanded emotion cause evidence": [
+                    6
+                ],
+                "expanded emotion cause span": [
+                    "That will be very nice . You're too kind ."
+                ],
+                "type": [
+                    "inter-personal"
+                ]
+            },
+            {
+                "turn": 8,
+                "speaker": "B",
+                "utterance": "Sounds great . Thank you for your hospitality .",
+                "emotion": "happiness",
+                "expanded emotion cause evidence": [
+                    7
+                ],
+                "expanded emotion cause span": [
+                    "I've already made a hotel reservation for you , let's go to the hotel first and drop off your things . Then , I'd like to have a drink so that we can get better acquainted . I've booked a table at an exclusive restaurant downtown . Afterwards , I've made arrangements to take you to see the city lights . Seattle ' s nightlife can be really quite exciting . How does that schedule sound to you ?"
+                ],
+                "type": [
+                    "inter-personal"
+                ]
+            }
+        ]
+    ],
+    "va_345": [
+        [
+            {
+                "turn": 1,
+                "speaker": "A",
+                "utterance": "I can't stand the stupid guy any longer . It ' s unbelievable !",
+                "emotion": "anger",
+                "expanded emotion cause evidence": [
+                    1
+                ],
+                "expanded emotion cause span": [
+                    "I can't stand the stupid guy any longer ."
+                ],
+                "type": [
+                    "no-context"
+                ]
+            },
+            {
+                "turn": 2,
+                "speaker": "B",
+                "utterance": "Oh , my dear lady . Take it easy . You should forgive a green hand like him .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 3,
+                "speaker": "A",
+                "utterance": "He does everything so mindlessly that he is going to drive me crazy .",
+                "emotion": "anger",
+                "expanded emotion cause evidence": [
+                    1,
+                    3
+                ],
+                "expanded emotion cause span": [
+                    "I can't stand the stupid guy any longer .",
+                    "He does everything so mindlessly"
+                ],
+                "type": [
+                    "no-context",
+                    "self-contagion"
+                ]
+            },
+            {
+                "turn": 4,
+                "speaker": "B",
+                "utterance": "I suggest you talk with him and teach him how to deal with the problems .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 5,
+                "speaker": "A",
+                "utterance": "I have told him how to do it several times , but he's never listened to me .",
+                "emotion": "anger",
+                "expanded emotion cause evidence": [
+                    5
+                ],
+                "expanded emotion cause span": [
+                    "I have told him how to do it several times , but he's never listened to me ."
+                ],
+                "type": [
+                    "no-context"
+                ]
+            },
+            {
+                "turn": 6,
+                "speaker": "B",
+                "utterance": "Maybe you should communicate with him just like a friend and not a boss .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 7,
+                "speaker": "A",
+                "utterance": "Oh , I always have difficulty in getting along with the staff .",
+                "emotion": "anger",
+                "expanded emotion cause evidence": [
+                    7
+                ],
+                "expanded emotion cause span": [
+                    "Oh , I always have difficulty in getting along with the staff ."
+                ],
+                "type": [
+                    "no-context"
+                ]
+            },
+            {
+                "turn": 8,
+                "speaker": "B",
+                "utterance": "Just take them for your good friends and have a talk with them as we do , make sure you don't lose your temper .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 9,
+                "speaker": "A",
+                "utterance": "I think that's a bad idea . I'd hate anyone here to think of me as a friend . How would they ever respect me as they can do whatever they want ?",
+                "emotion": "disgust",
+                "expanded emotion cause evidence": [
+                    8,
+                    9
+                ],
+                "expanded emotion cause span": [
+                    "Just take them for your good friends",
+                    "I'd hate anyone here to think of me as a friend . How would they ever respect me as they can do whatever they want ?"
+                ],
+                "type": [
+                    "no-context",
+                    "inter-personal"
+                ]
+            },
+            {
+                "turn": 10,
+                "speaker": "B",
+                "utterance": "I disagree . All you have to do is respect the staff and their opinions .",
+                "emotion": "neutral"
+            }
+        ]
+    ],
+    "tr_7727": [
+        [
+            {
+                "turn": 1,
+                "speaker": "A",
+                "utterance": "Excuse me , is this the way to the Great Wall ?",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 2,
+                "speaker": "B",
+                "utterance": "Oh , it is really far from here . You ' re going in the wrong direction actually .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 3,
+                "speaker": "A",
+                "utterance": "I must have taken a wrong turn .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 4,
+                "speaker": "B",
+                "utterance": "It doesn ' t matter . Go back the way you came . After about five kilometers , you ' ll see a hotel on the side of the road . It ' s a big one . You can ' t miss it .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 5,
+                "speaker": "A",
+                "utterance": "And then ?",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 6,
+                "speaker": "B",
+                "utterance": "Take the next right . Drive about one click further , and you ' ll see the entrance of the highway to the Great Wall .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 7,
+                "speaker": "A",
+                "utterance": "Thanks a lot .",
+                "emotion": "happiness",
+                "expanded emotion cause evidence": [
+                    3,
+                    6
+                ],
+                "expanded emotion cause span": [
+                    "I must have taken a wrong turn .",
+                    "Take the next right ."
+                ],
+                "type": [
+                    "hybrid"
+                ]
+            },
+            {
+                "turn": 8,
+                "speaker": "B",
+                "utterance": "You ' re welcome .",
+                "emotion": "happiness",
+                "expanded emotion cause evidence": [
+                    7
+                ],
+                "expanded emotion cause span": [
+                    "Thanks"
+                ],
+                "type": [
+                    "inter-personal"
+                ]
+            },
+            {
+                "turn": 9,
+                "speaker": "A",
+                "utterance": "By the way , how long does it take ?",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 10,
+                "speaker": "B",
+                "utterance": "Without traffic , it takes about an hour .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 11,
+                "speaker": "A",
+                "utterance": "I heard the Great Wall closes early in the afternoon . Do you think I can make it before closing ?",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 12,
+                "speaker": "B",
+                "utterance": "Yes , I think so . It doesn ' t close until 5 o ' clock . You still have plenty of time .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 13,
+                "speaker": "A",
+                "utterance": "Great ! Thank you !",
+                "emotion": "happiness",
+                "explanation": "The speaker is grateful for the provided help.",
+                "expanded emotion cause evidence": [
+                    12
+                ],
+                "expanded emotion cause span": [
+                    "You still have plenty of time ."
+                ],
+                "type": [
+                    "inter-personal"
+                ]
+            },
+            {
+                "turn": 14,
+                "speaker": "B",
+                "utterance": "My pleasure , and have a good time !",
+                "emotion": "happiness",
+                "expanded emotion cause evidence": [
+                    13
+                ],
+                "expanded emotion cause span": [
+                    "Thank you !"
+                ],
+                "type": [
+                    "inter-personal"
+                ]
+            }
+        ]
+    ],
+    "va_184": [
+        [
+            {
+                "turn": 1,
+                "speaker": "A",
+                "utterance": "Hello , ma ' am . Can I help you ?",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 2,
+                "speaker": "B",
+                "utterance": "I ' m looking for a sweater .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 3,
+                "speaker": "A",
+                "utterance": "What size are you looking for ?",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 4,
+                "speaker": "B",
+                "utterance": "Well , I ' m looking for size 10 but you don ' t have it .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 5,
+                "speaker": "A",
+                "utterance": "How about this one ? I think it looks terrific on you .",
+                "emotion": "happiness",
+                "expanded emotion cause evidence": [
+                    5
+                ],
+                "expanded emotion cause span": [
+                    "it looks terrific"
+                ],
+                "type": [
+                    "no-context"
+                ]
+            },
+            {
+                "turn": 6,
+                "speaker": "B",
+                "utterance": "Yes , I like the color . Can I try it on ?",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 7,
+                "speaker": "A",
+                "utterance": "Sure . The fitting room is on your right .",
+                "emotion": "happiness",
+                "expanded emotion cause evidence": [
+                    5,
+                    6
+                ],
+                "expanded emotion cause span": [
+                    "it looks terrific",
+                    "I like the color ."
+                ],
+                "type": [
+                    "hybrid"
+                ]
+            },
+            {
+                "turn": 8,
+                "speaker": "B",
+                "utterance": "It fits well . I like it a lot . What do you think ?",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 9,
+                "speaker": "A",
+                "utterance": "You look pretty in red .",
+                "emotion": "happiness",
+                "expanded emotion cause evidence": [
+                    5,
+                    6,
+                    8,
+                    9
+                ],
+                "expanded emotion cause span": [
+                    "it looks terrific",
+                    "I like the color .",
+                    "It fits well . I like it a lot .",
+                    "You look pretty"
+                ],
+                "type": [
+                    "no-context",
+                    "hybrid"
+                ]
+            },
+            {
+                "turn": 10,
+                "speaker": "B",
+                "utterance": "Oh , it ' s my favorite . How much is it ?",
+                "emotion": "happiness",
+                "expanded emotion cause evidence": [
+                    9,
+                    10
+                ],
+                "expanded emotion cause span": [
+                    "You look pretty in red .",
+                    "it ' s my favorite ."
+                ],
+                "type": [
+                    "no-context",
+                    "inter-personal"
+                ]
+            },
+            {
+                "turn": 11,
+                "speaker": "A",
+                "utterance": "$ 29 . 99 .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 12,
+                "speaker": "B",
+                "utterance": "Okay . I ' ll take it . Thank you very much for your help .",
+                "emotion": "happiness",
+                "expanded emotion cause evidence": [
+                    9,
+                    10,
+                    12
+                ],
+                "expanded emotion cause span": [
+                    "You look pretty in red .",
+                    "it ' s my favorite .",
+                    "Thank you"
+                ],
+                "type": [
+                    "no-context",
+                    "hybrid"
+                ]
+            },
+            {
+                "turn": 13,
+                "speaker": "A",
+                "utterance": "You ' re welcome .",
+                "emotion": "happiness",
+                "expanded emotion cause evidence": [
+                    12
+                ],
+                "expanded emotion cause span": [
+                    "I ' ll take it . Thank you"
+                ],
+                "type": [
+                    "inter-personal"
+                ]
+            }
+        ]
+    ],
+    "tr_7853": [
+        [
+            {
+                "turn": 1,
+                "speaker": "A",
+                "utterance": "Yeah , I ' Ve just moved here , and I ' d like to activate my cell phone , and I ' m not sure if I should go with a prepaid plan , or a monthly rate plan .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 2,
+                "speaker": "B",
+                "utterance": "I see . Well , can I have a look at your phone ? Unfortunately , this phone can ' t be used in the US . it ' s not compatible with our 3G network .",
+                "emotion": "happiness",
+                "explanation": "Greeting the customer",
+                "expanded emotion cause evidence": [
+                    "b"
+                ],
+                "expanded emotion cause span": [
+                    "b"
+                ],
+                "type": [
+                    "latent"
+                ]
+            },
+            {
+                "turn": 3,
+                "speaker": "A",
+                "utterance": "What ? Really ? I don ' t really want to have to buy a new phone .",
+                "emotion": "surprise",
+                "expanded emotion cause evidence": [
+                    2
+                ],
+                "expanded emotion cause span": [
+                    "this phone can ' t be used in the US . it ' s not compatible with our 3G network ."
+                ],
+                "type": [
+                    "inter-personal"
+                ]
+            },
+            {
+                "turn": 4,
+                "speaker": "B",
+                "utterance": "Well , you ' re in luck ! You see , if you sign up for our three-year plan , we ' ll throw in a handset for free .",
+                "emotion": "happiness",
+                "explanation": "offering a good deal to the customer with happiness",
+                "expanded emotion cause evidence": [
+                    3,
+                    4
+                ],
+                "expanded emotion cause span": [
+                    "I don ' t really want to have to buy a new phone .",
+                    "if you sign up for our three-year plan , we ' ll throw in a handset for free ."
+                ],
+                "type": [
+                    "no-context",
+                    "inter-personal"
+                ]
+            },
+            {
+                "turn": 5,
+                "speaker": "A",
+                "utterance": "Really ? What ' s the catch ?",
+                "emotion": "surprise",
+                "expanded emotion cause evidence": [
+                    4
+                ],
+                "expanded emotion cause span": [
+                    "if you sign up for our three-year plan , we ' ll throw in a handset for free ."
+                ],
+                "type": [
+                    "inter-personal"
+                ]
+            },
+            {
+                "turn": 6,
+                "speaker": "B",
+                "utterance": "There ' s no catch ! You just choose a plan , sign a three-year contract and , that ' s it ! Actually , we ' re running a special promotion right now , and we ' regiving away a Blackberry Curve with our special Mega Value forty dollar plan .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 7,
+                "speaker": "A",
+                "utterance": "So what does this plan include ?",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 8,
+                "speaker": "B",
+                "utterance": "Well , you get nine hundred anytime minutes , and you can also enjoy free mobile to mobile calling to other Tel-Mobile clients , one thousand text messages per month , and unlimited evening and weekend minutes . Oh , and we also offer a rollover option .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 9,
+                "speaker": "A",
+                "utterance": "Wow , all this for forty dollars per month ?",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 10,
+                "speaker": "B",
+                "utterance": "That ' s right , plus the activation fee , the emergency services fee , the monthly service fee , oh , and any charges for extra minutes , and ...",
+                "emotion": "neutral"
+            }
+        ]
+    ],
+    "va_371": [
+        [
+            {
+                "turn": 1,
+                "speaker": "A",
+                "utterance": "Ahem ... uh , sir , I beg your pardon ... Uh , mister , are you waiting to buy a ticket for the movie ?",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 2,
+                "speaker": "B",
+                "utterance": "What's it look like , lady ? This is the ticket line I'm standing in , isn't it ?",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 3,
+                "speaker": "A",
+                "utterance": "Well , yes , it is , but ...",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 4,
+                "speaker": "B",
+                "utterance": "So , what's your beef anyway , lady ?",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 5,
+                "speaker": "A",
+                "utterance": "You just cut into line , in front of me and everyone else , that's what ! Go take your place back at the end of the line , like every - one else !",
+                "emotion": "anger",
+                "expanded emotion cause evidence": [
+                    5
+                ],
+                "expanded emotion cause span": [
+                    "You just cut into line , in front of me and everyone else"
+                ],
+                "type": [
+                    "no-context"
+                ]
+            },
+            {
+                "turn": 6,
+                "speaker": "B",
+                "utterance": "Oh sure , lady , and fat chance I'd get a ticket before they're sold out . I'm staying right here , understand ? So be a nice lady and butt out !",
+                "emotion": "anger",
+                "expanded emotion cause evidence": [
+                    5,
+                    6
+                ],
+                "expanded emotion cause span": [
+                    "Go take your place back at the end of the line , like every - one else !",
+                    "fat chance I'd get a ticket before they're sold out . I'm staying right here , understand ? So be a nice lady and butt out !"
+                ],
+                "type": [
+                    "no-context",
+                    "inter-personal"
+                ]
+            },
+            {
+                "turn": 7,
+                "speaker": "A",
+                "utterance": "Just what gives you the right ... ?",
+                "emotion": "anger",
+                "expanded emotion cause evidence": [
+                    5,
+                    5,
+                    6
+                ],
+                "expanded emotion cause span": [
+                    "You just cut into line , in front of me and everyone else",
+                    "Go take your place back at the end of the line , like every - one else !",
+                    "I'm staying right here , understand ? So be a nice lady and butt out !"
+                ],
+                "type": [
+                    "hybrid"
+                ]
+            },
+            {
+                "turn": 8,
+                "speaker": "B",
+                "utterance": "Because I'm no sucker ; only suckers go to the end of the line . It's as simple as that , lady .",
+                "emotion": "anger",
+                "expanded emotion cause evidence": [
+                    8
+                ],
+                "expanded emotion cause span": [
+                    "Because I'm no sucker ; only suckers go to the end of the line ."
+                ],
+                "type": [
+                    "no-context"
+                ]
+            },
+            {
+                "turn": 9,
+                "speaker": "A",
+                "utterance": "Well , you're no gentleman , either .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 10,
+                "speaker": "B",
+                "utterance": "Okay , lady , just to show what a gentleman I really am , I'll let you go in front of me . Now , just buy your ticket and shut your trap , will you , lady ?",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 11,
+                "speaker": "A",
+                "utterance": "Whew ! I got the last one . This must be my lucky day !",
+                "emotion": "happiness",
+                "expanded emotion cause evidence": [
+                    11
+                ],
+                "expanded emotion cause span": [
+                    "Whew ! I got the last one ."
+                ],
+                "type": [
+                    "no-context"
+                ]
+            },
+            {
+                "turn": 12,
+                "speaker": "B",
+                "utterance": "What was that you just said ? Last one ... ? Hey , they've closed the ticket window !",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 13,
+                "speaker": "A",
+                "utterance": "Yes , I'm afraid I bought the last ticket , and to think , if you hadn't been such a gentleman . . .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 14,
+                "speaker": "B",
+                "utterance": "Lady ! This is unfair ! I've been cheated ! I was in line before you . That should have been my ticket ! Come on , hand it over , lady !",
+                "emotion": "anger",
+                "expanded emotion cause evidence": [
+                    13,
+                    14
+                ],
+                "expanded emotion cause span": [
+                    "I bought the last ticket ,",
+                    "Lady ! This is unfair ! I've been cheated ! I was in line before you . That should have been my ticket !"
+                ],
+                "type": [
+                    "no-context",
+                    "inter-personal"
+                ]
+            },
+            {
+                "turn": 15,
+                "speaker": "A",
+                "utterance": "Gentleman ! Hah ! Fat chance ! Hah ! Eat your heart out , sucker ! Hah !",
+                "emotion": "anger",
+                "expanded emotion cause evidence": [
+                    5,
+                    5,
+                    6,
+                    13,
+                    14
+                ],
+                "expanded emotion cause span": [
+                    "You just cut into line , in front of me and everyone else",
+                    "Go take your place back at the end of the line , like every - one else !",
+                    "I'm staying right here , understand ? So be a nice lady and butt out !",
+                    "I bought the last ticket ,",
+                    "Lady ! This is unfair ! I've been cheated ! I was in line before you . That should have been my ticket !"
+                ],
+                "type": [
+                    "hybrid"
+                ]
+            }
+        ]
+    ],
+    "va_838": [
+        [
+            {
+                "turn": 1,
+                "speaker": "A",
+                "utterance": "What's wrong , officer ?",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 2,
+                "speaker": "B",
+                "utterance": "You do realize that you ran a red light , don't you ?",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 3,
+                "speaker": "A",
+                "utterance": "I did ?",
+                "emotion": "surprise",
+                "expanded emotion cause evidence": [
+                    2
+                ],
+                "expanded emotion cause span": [
+                    "you ran a red light"
+                ],
+                "type": [
+                    "inter-personal"
+                ]
+            },
+            {
+                "turn": 4,
+                "speaker": "B",
+                "utterance": "You didn't see the red light ?",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 5,
+                "speaker": "A",
+                "utterance": "I'm sorry for running it , but I really didn't know .",
+                "emotion": "sadness",
+                "expanded emotion cause evidence": [
+                    5
+                ],
+                "expanded emotion cause span": [
+                    "I'm sorry for running it"
+                ],
+                "type": [
+                    "no-context"
+                ]
+            },
+            {
+                "turn": 6,
+                "speaker": "B",
+                "utterance": "Didn't you learn that red means stop ?",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 7,
+                "speaker": "A",
+                "utterance": "I know that .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 8,
+                "speaker": "B",
+                "utterance": "Then tell me why you sped up on the yellow light .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 9,
+                "speaker": "A",
+                "utterance": "I'm not sure .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 10,
+                "speaker": "B",
+                "utterance": "I'm giving you a ticket for this .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 11,
+                "speaker": "A",
+                "utterance": "I'm sorry for the misunderstanding .",
+                "emotion": "sadness",
+                "expanded emotion cause evidence": [
+                    10,
+                    11
+                ],
+                "expanded emotion cause span": [
+                    "I'm giving you a ticket for this .",
+                    "I'm sorry for the misunderstanding ."
+                ],
+                "type": [
+                    "no-context",
+                    "inter-personal"
+                ]
+            },
+            {
+                "turn": 12,
+                "speaker": "B",
+                "utterance": "Maybe you'll think about this before you decide to run another light .",
+                "emotion": "neutral"
+            }
+        ]
+    ],
+    "tr_7729": [
+        [
+            {
+                "turn": 1,
+                "speaker": "A",
+                "utterance": "All the food smells tasty today and makes my mouth water .",
+                "emotion": "happiness",
+                "expanded emotion cause evidence": [
+                    1
+                ],
+                "expanded emotion cause span": [
+                    "food smells tasty"
+                ],
+                "type": [
+                    "no-context"
+                ]
+            },
+            {
+                "turn": 2,
+                "speaker": "B",
+                "utterance": "Let's line up here . This line seems a little shorter .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 3,
+                "speaker": "A",
+                "utterance": "What's on the menu today ?",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 4,
+                "speaker": "B",
+                "utterance": "Fish , beef , pork , chicken , vegetables and beancurd . For staple food we have rice , steamed bread , stuffed buns and noodles .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 5,
+                "speaker": "A",
+                "utterance": "Oh , we're lucky today , aren't we ?",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 6,
+                "speaker": "B",
+                "utterance": "I'd rather take stewed cabbage with beef .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 7,
+                "speaker": "A",
+                "utterance": "I think I'll take fried fish , because fish is one of my favorites .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 8,
+                "speaker": "B",
+                "utterance": "That's good , we can share what we have . Here we are . You go ahead .",
+                "emotion": "happiness",
+                "expanded emotion cause evidence": [
+                    7,
+                    8
+                ],
+                "expanded emotion cause span": [
+                    "fish is one of my favorites .",
+                    "we can share"
+                ],
+                "type": [
+                    "no-context",
+                    "inter-personal"
+                ]
+            },
+            {
+                "turn": 9,
+                "speaker": "A",
+                "utterance": "( They get everything ready ) Here is a free table . Let's sit down . Help yourself to some fish please . Isn't it delicious and appetizing ?",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 10,
+                "speaker": "B",
+                "utterance": "I'm sorry I don't like it's a little too salty .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 11,
+                "speaker": "A",
+                "utterance": "I see . You people from south prefer sweet , don't you ?",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 12,
+                "speaker": "B",
+                "utterance": "Yes , I like the fish cooked in sweet and sour sauce best . Try some beef , please .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 13,
+                "speaker": "A",
+                "utterance": "Thank you . I'm through with one steamed bread and I'd like a second helping .",
+                "emotion": "happiness",
+                "expanded emotion cause evidence": [
+                    12
+                ],
+                "expanded emotion cause span": [
+                    "Try some beef , please ."
+                ],
+                "type": [
+                    "inter-personal"
+                ]
+            },
+            {
+                "turn": 14,
+                "speaker": "B",
+                "utterance": "Your appetite is good .",
+                "emotion": "happiness",
+                "expanded emotion cause evidence": [
+                    14
+                ],
+                "expanded emotion cause span": [
+                    "Your appetite is good ."
+                ],
+                "type": [
+                    "no-context"
+                ]
+            },
+            {
+                "turn": 15,
+                "speaker": "A",
+                "utterance": "I'm always feeling hungry .",
+                "emotion": "neutral"
+            }
+        ]
+    ],
+    "va_829": [
+        [
+            {
+                "turn": 1,
+                "speaker": "A",
+                "utterance": "Hi ! Is that the new laptop you brought last week ? It looks very nice .",
+                "emotion": "happiness",
+                "expanded emotion cause evidence": [
+                    1
+                ],
+                "expanded emotion cause span": [
+                    "It looks very nice ."
+                ],
+                "type": [
+                    "no-context"
+                ]
+            },
+            {
+                "turn": 2,
+                "speaker": "B",
+                "utterance": "Yes , it is . Thanks . I ' m just surfing on the internet .",
+                "emotion": "happiness",
+                "expanded emotion cause evidence": [
+                    1,
+                    1,
+                    2
+                ],
+                "expanded emotion cause span": [
+                    "It looks very nice .",
+                    "It looks very nice .",
+                    "Yes ,"
+                ],
+                "type": [
+                    "no-context",
+                    "inter-personal"
+                ]
+            },
+            {
+                "turn": 3,
+                "speaker": "A",
+                "utterance": "Here ? In this cafe ? How can you do that ?",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 4,
+                "speaker": "B",
+                "utterance": "This cafe offers a wireless internet connection . That means I can get on the net for free while I ' m here . Of course , I have to buy a cup of coffee !",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 5,
+                "speaker": "A",
+                "utterance": "That ' s great . Can you do it anywhere ?",
+                "emotion": "happiness",
+                "expanded emotion cause evidence": [
+                    4
+                ],
+                "expanded emotion cause span": [
+                    "I can get on the net for free"
+                ],
+                "type": [
+                    "inter-personal"
+                ]
+            },
+            {
+                "turn": 6,
+                "speaker": "B",
+                "utterance": "No . you can only do it when the cafe offers a wireless connection . There are only about 10 or 12 places that offer it in this city .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 7,
+                "speaker": "A",
+                "utterance": "So , what programs do you have on your laptop ?",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 8,
+                "speaker": "B",
+                "utterance": "I ' Ve got all the usual ones for word processing and then I have a few for creating and editing photographs .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 9,
+                "speaker": "A",
+                "utterance": "I know you are keen on photography . It ' s very useful for you to be able to download photos from your digital camera . Then you attach the picture files to emails and send them to anyone , anywhere , at a",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 10,
+                "speaker": "B",
+                "utterance": "It ' s wonderful , isn ' t it ? Would you like to see some photos that I took recently ?",
+                "emotion": "happiness",
+                "expanded emotion cause evidence": [
+                    10
+                ],
+                "expanded emotion cause span": [
+                    "It ' s wonderful , isn ' t it ?"
+                ],
+                "type": [
+                    "no-context"
+                ]
+            }
+        ]
+    ],
+    "va_201": [
+        [
+            {
+                "turn": 1,
+                "speaker": "A",
+                "utterance": "Good morning .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 2,
+                "speaker": "B",
+                "utterance": "Good morning . This is Mary . Can I speak to Anne please ?",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 3,
+                "speaker": "A",
+                "utterance": "I ' m sorry She isn ' t in at the momment . She will come back at half past nineCan I take a message for her ?",
+                "emotion": "sadness",
+                "expanded emotion cause evidence": [
+                    3
+                ],
+                "expanded emotion cause span": [
+                    "She isn ' t in at the momment ."
+                ],
+                "type": [
+                    "no-context"
+                ]
+            },
+            {
+                "turn": 4,
+                "speaker": "B",
+                "utterance": "Thank you . But I will call her later",
+                "emotion": "happiness",
+                "expanded emotion cause evidence": [
+                    3
+                ],
+                "expanded emotion cause span": [
+                    "Can I take a message for her ?"
+                ],
+                "type": [
+                    "inter-personal"
+                ]
+            },
+            {
+                "turn": 5,
+                "speaker": "A",
+                "utterance": "OK . Goodbye .",
+                "emotion": "happiness",
+                "explanation": "Sharing pleasantries.",
+                "expanded emotion cause evidence": [
+                    4
+                ],
+                "expanded emotion cause span": [
+                    "Thank you ."
+                ],
+                "type": [
+                    "inter-personal"
+                ]
+            },
+            {
+                "turn": 6,
+                "speaker": "B",
+                "utterance": "Goodbye .",
+                "emotion": "happiness",
+                "explanation": "Sharing pleasantries.",
+                "expanded emotion cause evidence": [
+                    5
+                ],
+                "expanded emotion cause span": [
+                    "Goodbye ."
+                ],
+                "type": [
+                    "inter-personal"
+                ]
+            }
+        ]
+    ],
+    "tr_7961": [
+        [
+            {
+                "turn": 1,
+                "speaker": "A",
+                "utterance": "Honey , the house is such a mess ! I need you to help me tidy up a bit . My boss and her husband are coming over for dinner and the house needs to be spotless !",
+                "emotion": "disgust",
+                "expanded emotion cause evidence": [
+                    1
+                ],
+                "expanded emotion cause span": [
+                    "the house is such a mess !"
+                ],
+                "type": [
+                    "no-context"
+                ]
+            },
+            {
+                "turn": 2,
+                "speaker": "B",
+                "utterance": "I ' m in the middle of something right now . I ' ll be there in a second .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 3,
+                "speaker": "A",
+                "utterance": "This can ' t wait ! I need your help now !",
+                "emotion": "fear",
+                "expanded emotion cause evidence": [
+                    3
+                ],
+                "expanded emotion cause span": [
+                    "This can ' t wait ! I need your help now !"
+                ],
+                "type": [
+                    "no-context"
+                ]
+            },
+            {
+                "turn": 4,
+                "speaker": "B",
+                "utterance": "Alright , alright . I ' m coming .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 5,
+                "speaker": "A",
+                "utterance": "Ok , here ' s a list of chores we need to get done . I'll do the dishes and get all the groceries for tonight . You can sweep and mop the floors . Oh , and the furniture needs to be dusted .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 6,
+                "speaker": "B",
+                "utterance": "You know what , I have to pick something up at the mall , so why don ' t you clean the floors and I'll go to the supermarket and get all the groceries .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 7,
+                "speaker": "A",
+                "utterance": "Sure that ' s fine . Here is the list of all the things you need to get . Don't forget anything ! And can you pick up a bottle of wine on your way home ?",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 8,
+                "speaker": "B",
+                "utterance": "Hey , honey I ' m back . Wow , the house looks really good !",
+                "emotion": "happiness",
+                "expanded emotion cause evidence": [
+                    8
+                ],
+                "expanded emotion cause span": [
+                    "the house looks really good !"
+                ],
+                "type": [
+                    "no-context"
+                ]
+            },
+            {
+                "turn": 9,
+                "speaker": "A",
+                "utterance": "Great ! Can you set the table ?",
+                "emotion": "happiness",
+                "expanded emotion cause evidence": [
+                    8
+                ],
+                "expanded emotion cause span": [
+                    "the house looks really good !"
+                ],
+                "type": [
+                    "inter-personal"
+                ]
+            },
+            {
+                "turn": 10,
+                "speaker": "B",
+                "utterance": "Just a sec I ' m just gonna vacuum this rug real fast .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 11,
+                "speaker": "A",
+                "utterance": "Wait ! Don ' t turn it on ...",
+                "emotion": "neutral"
+            }
+        ]
+    ],
+    "va_977": [
+        [
+            {
+                "turn": 1,
+                "speaker": "A",
+                "utterance": "Good morning , May . Good girl , you are reading English books again .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 2,
+                "speaker": "B",
+                "utterance": "Good morning . There is no reason to miss so beautiful a morning . Is that a new bird ?",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 3,
+                "speaker": "A",
+                "utterance": "Oh , yes , my daughter bought it yesterday . We call her Lulu .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 4,
+                "speaker": "B",
+                "utterance": "It looks so cute . Is it a parrot ?",
+                "emotion": "happiness",
+                "expanded emotion cause evidence": [
+                    4
+                ],
+                "expanded emotion cause span": [
+                    "It looks so cute ."
+                ],
+                "type": [
+                    "no-context"
+                ]
+            },
+            {
+                "turn": 5,
+                "speaker": "A",
+                "utterance": "Yes . Just look at her colorful feathers . What else can it be ?",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 6,
+                "speaker": "B",
+                "utterance": "I see . It's interesting that there is also a parrot in my English book . His mane is Polly .",
+                "emotion": "happiness",
+                "expanded emotion cause evidence": [
+                    4
+                ],
+                "expanded emotion cause span": [
+                    "It looks so cute ."
+                ],
+                "type": [
+                    "self-contagion"
+                ]
+            },
+            {
+                "turn": 7,
+                "speaker": "A",
+                "utterance": "Really ? A foreign parrot !",
+                "emotion": "surprise",
+                "expanded emotion cause evidence": [
+                    6
+                ],
+                "expanded emotion cause span": [
+                    "It's interesting that there is also a parrot in my English book . His mane is Polly ."
+                ],
+                "type": [
+                    "inter-personal"
+                ]
+            },
+            {
+                "turn": 8,
+                "speaker": "B",
+                "utterance": "He can speak English , too .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 9,
+                "speaker": "A",
+                "utterance": "Maybe you can teach Lulu some English words .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 10,
+                "speaker": "B",
+                "utterance": "Lulu . Lulu . Say hello . hello . Oh , she is so smart . Good bird .",
+                "emotion": "happiness",
+                "expanded emotion cause evidence": [
+                    4,
+                    10
+                ],
+                "expanded emotion cause span": [
+                    "It looks so cute .",
+                    "Oh , she is so smart . Good bird ."
+                ],
+                "type": [
+                    "no-context",
+                    "self-contagion"
+                ]
+            }
+        ]
+    ],
+    "tr_7980": [
+        [
+            {
+                "turn": 1,
+                "speaker": "A",
+                "utterance": "Bob , can I talk to you for a minute ? There have been some developments for the Stewart case that I really need to talk to you about .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 2,
+                "speaker": "B",
+                "utterance": "Yeah , what's the matter now ? We've had so much trouble with this case already . Don't tell me there's more bad news .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 3,
+                "speaker": "A",
+                "utterance": "Well , I'm afraid there is . I have some bad news for you about the results of the forensic tests ... there won't be any results .",
+                "emotion": "sadness",
+                "expanded emotion cause evidence": [
+                    3,
+                    3
+                ],
+                "expanded emotion cause span": [
+                    "I have some bad news",
+                    "there won't be any results ."
+                ],
+                "type": [
+                    "no-context"
+                ]
+            },
+            {
+                "turn": 4,
+                "speaker": "B",
+                "utterance": "What ? What does that mean ? Why won't there be any results ?",
+                "emotion": "surprise",
+                "expanded emotion cause evidence": [
+                    3,
+                    4
+                ],
+                "expanded emotion cause span": [
+                    "there won't be any results .",
+                    "Why won't there be any results ?"
+                ],
+                "type": [
+                    "no-context",
+                    "inter-personal"
+                ]
+            },
+            {
+                "turn": 5,
+                "speaker": "A",
+                "utterance": "I hate to tell you this , but it seems that every shred of evidence that would help us to convict were destroyed in a laboratory fire . There's nothing left . I'm so sorry ...",
+                "emotion": "sadness",
+                "expanded emotion cause evidence": [
+                    3,
+                    3,
+                    5
+                ],
+                "expanded emotion cause span": [
+                    "I have some bad news",
+                    "there won't be any results .",
+                    "every shred of evidence that would help us to convict were destroyed in a laboratory fire . There's nothing left ."
+                ],
+                "type": [
+                    "no-context",
+                    "self-contagion"
+                ]
+            },
+            {
+                "turn": 6,
+                "speaker": "B",
+                "utterance": "Oh , no , you can't be serious . I never expect anything like this would happened . What are we going to do ?",
+                "emotion": "surprise",
+                "expanded emotion cause evidence": [
+                    3,
+                    4,
+                    5,
+                    6
+                ],
+                "expanded emotion cause span": [
+                    "there won't be any results .",
+                    "Why won't there be any results ?",
+                    "every shred of evidence that would help us to convict were destroyed in a laboratory fire . There's nothing left .",
+                    "I never expect anything like this"
+                ],
+                "type": [
+                    "no-context",
+                    "hybrid"
+                ]
+            },
+            {
+                "turn": 7,
+                "speaker": "A",
+                "utterance": "There's nothing that can be done . Everything is gone . I wish I could tell you differently , but what has happened has happened . We will just have to figure out a way to move on .",
+                "emotion": "sadness",
+                "expanded emotion cause evidence": [
+                    3,
+                    3,
+                    5,
+                    7
+                ],
+                "expanded emotion cause span": [
+                    "I have some bad news",
+                    "there won't be any results .",
+                    "every shred of evidence that would help us to convict were destroyed in a laboratory fire . There's nothing left .",
+                    "There's nothing that can be done . Everything is gone ."
+                ],
+                "type": [
+                    "no-context",
+                    "self-contagion"
+                ]
+            }
+        ]
+    ],
+    "va_32": [
+        [
+            {
+                "turn": 1,
+                "speaker": "A",
+                "utterance": "So , Casey , how are things going with the photos for the press kit ?",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 2,
+                "speaker": "B",
+                "utterance": "Yeah , I ' Ve been meaning to talk to you about that . I might need to ask for an extension on that deadline .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 3,
+                "speaker": "A",
+                "utterance": "You ' Ve had over a month to get this finalized ! Why are things delayed ?",
+                "emotion": "anger",
+                "expanded emotion cause evidence": [
+                    2,
+                    3,
+                    3
+                ],
+                "expanded emotion cause span": [
+                    "need to ask for an extension",
+                    "You ' Ve had over a month",
+                    "Why are things delayed ?"
+                ],
+                "type": [
+                    "no-context",
+                    "inter-personal"
+                ]
+            },
+            {
+                "turn": 4,
+                "speaker": "B",
+                "utterance": "Well , the thing is , we ran into a lot of problems . . .",
+                "emotion": "sadness",
+                "expanded emotion cause evidence": [
+                    4
+                ],
+                "expanded emotion cause span": [
+                    "we ran into a lot of problems"
+                ],
+                "type": [
+                    "no-context"
+                ]
+            },
+            {
+                "turn": 5,
+                "speaker": "A",
+                "utterance": "I ' m not looking for excuses here . I just want to get this finished on time !",
+                "emotion": "anger",
+                "expanded emotion cause evidence": [
+                    2,
+                    3,
+                    3,
+                    5
+                ],
+                "expanded emotion cause span": [
+                    "need to ask for an extension",
+                    "You ' Ve had over a month",
+                    "Why are things delayed ?",
+                    "I ' m not looking for excuses"
+                ],
+                "type": [
+                    "no-context",
+                    "hybrid"
+                ]
+            },
+            {
+                "turn": 6,
+                "speaker": "B",
+                "utterance": "I know , and I apologize for the delay . But some things were just beyond my control . I had trouble booking the photographer , and then Michael was sick for three weeks , so I couldn ' t include him in the photos , and the design team lost all the files , so I had to re-do the pictures .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 7,
+                "speaker": "A",
+                "utterance": "I ' m not going to put this off any longer , Casey ! I want those photos ASAP !",
+                "emotion": "anger",
+                "expanded emotion cause evidence": [
+                    2,
+                    3,
+                    3,
+                    5,
+                    7,
+                    7
+                ],
+                "expanded emotion cause span": [
+                    "need to ask for an extension",
+                    "You ' Ve had over a month",
+                    "Why are things delayed ?",
+                    "I ' m not looking for excuses",
+                    "I ' m not going to put this off any longer ,",
+                    "I want those photos ASAP !"
+                ],
+                "type": [
+                    "no-context",
+                    "hybrid"
+                ]
+            }
+        ]
+    ],
+    "tr_7751": [
+        [
+            {
+                "turn": 1,
+                "speaker": "A",
+                "utterance": "It's a beautiful day ! Let's play on those rides in the park .",
+                "emotion": "happiness",
+                "expanded emotion cause evidence": [
+                    1
+                ],
+                "expanded emotion cause span": [
+                    "It's a beautiful day !"
+                ],
+                "type": [
+                    "no-context"
+                ]
+            },
+            {
+                "turn": 2,
+                "speaker": "B",
+                "utterance": "Sounds like a good idea . I love to play on the jungle gym .",
+                "emotion": "happiness",
+                "expanded emotion cause evidence": [
+                    1,
+                    2,
+                    2
+                ],
+                "expanded emotion cause span": [
+                    "Let's play on those rides in the park .",
+                    "good idea .",
+                    "I love to play on the jungle gym ."
+                ],
+                "type": [
+                    "no-context",
+                    "inter-personal"
+                ]
+            },
+            {
+                "turn": 3,
+                "speaker": "A",
+                "utterance": "Me too . I love to play on the swing as well . Swing is my favorite .",
+                "emotion": "happiness",
+                "expanded emotion cause evidence": [
+                    1,
+                    2,
+                    3
+                ],
+                "expanded emotion cause span": [
+                    "It's a beautiful day !",
+                    "I love to play on the jungle gym .",
+                    "I love to play on the swing"
+                ],
+                "type": [
+                    "no-context",
+                    "hybrid"
+                ]
+            },
+            {
+                "turn": 4,
+                "speaker": "B",
+                "utterance": "That's great . Then we won't fight over taking the same ride .",
+                "emotion": "happiness",
+                "expanded emotion cause evidence": [
+                    1,
+                    2,
+                    2,
+                    3,
+                    3,
+                    4
+                ],
+                "expanded emotion cause span": [
+                    "Let's play on those rides in the park .",
+                    "good idea .",
+                    "I love to play on the jungle gym .",
+                    "I love to play on the swing",
+                    "Swing is my favorite .",
+                    "we won't fight"
+                ],
+                "type": [
+                    "no-context",
+                    "hybrid"
+                ]
+            },
+            {
+                "turn": 5,
+                "speaker": "A",
+                "utterance": "Look at the flowers over there . What are they ?",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 6,
+                "speaker": "B",
+                "utterance": "They are morning glories . They are cute , aren't they ?",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 7,
+                "speaker": "A",
+                "utterance": "They are . We can find many different kinds of flowers and insects in the park .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 8,
+                "speaker": "B",
+                "utterance": "I think so . Last time I saw dandelions and ladybugs near the pond .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 9,
+                "speaker": "A",
+                "utterance": "If you come to the park in the morning , you can find squirrels running on the lawn .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 10,
+                "speaker": "B",
+                "utterance": "It's really healthy to do some exercise there . The air is fresher and it's romantic to watch the sunset with your lover .",
+                "emotion": "happiness",
+                "expanded emotion cause evidence": [
+                    10,
+                    10
+                ],
+                "expanded emotion cause span": [
+                    "It's really healthy",
+                    "The air is fresher and it's romantic"
+                ],
+                "type": [
+                    "no-context"
+                ]
+            },
+            {
+                "turn": 11,
+                "speaker": "A",
+                "utterance": "Well , off we go . I am sure we can have a great time .",
+                "emotion": "happiness",
+                "expanded emotion cause evidence": [
+                    11
+                ],
+                "expanded emotion cause span": [
+                    "we can have a great time ."
+                ],
+                "type": [
+                    "no-context"
+                ]
+            }
+        ]
+    ],
+    "va_664": [
+        [
+            {
+                "turn": 1,
+                "speaker": "A",
+                "utterance": "Won't you have some of this ?",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 2,
+                "speaker": "B",
+                "utterance": "Yes , thanks .",
+                "emotion": "happiness",
+                "expanded emotion cause evidence": [
+                    1
+                ],
+                "expanded emotion cause span": [
+                    "Won't you have some of this ?"
+                ],
+                "type": [
+                    "inter-personal"
+                ]
+            },
+            {
+                "turn": 3,
+                "speaker": "A",
+                "utterance": "It's my grandmother's favorite recipe for barbecue .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 4,
+                "speaker": "B",
+                "utterance": "It's very good . How do you make it ?",
+                "emotion": "happiness",
+                "expanded emotion cause evidence": [
+                    4
+                ],
+                "expanded emotion cause span": [
+                    "It's very good ."
+                ],
+                "type": [
+                    "no-context"
+                ]
+            },
+            {
+                "turn": 5,
+                "speaker": "A",
+                "utterance": "I use a special dressing and homemade catsup .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 6,
+                "speaker": "B",
+                "utterance": "This salad looks so nice-just right for a hot day .",
+                "emotion": "happiness",
+                "expanded emotion cause evidence": [
+                    4,
+                    6
+                ],
+                "expanded emotion cause span": [
+                    "It's very good .",
+                    "This salad looks so nice-just right for a hot day ."
+                ],
+                "type": [
+                    "no-context",
+                    "self-contagion"
+                ]
+            },
+            {
+                "turn": 7,
+                "speaker": "A",
+                "utterance": "I'm glad you like it .",
+                "emotion": "happiness",
+                "expanded emotion cause evidence": [
+                    6,
+                    7
+                ],
+                "expanded emotion cause span": [
+                    "This salad looks so nice-just right for a hot day .",
+                    "I'm glad you like it ."
+                ],
+                "type": [
+                    "no-context",
+                    "inter-personal"
+                ]
+            },
+            {
+                "turn": 8,
+                "speaker": "B",
+                "utterance": "You Americans usually have nutritious food .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 9,
+                "speaker": "A",
+                "utterance": "Oh , but Chinese food is so delicious . I wish I knew how to cook Chinese food . Do you follow recipes ?",
+                "emotion": "happiness",
+                "expanded emotion cause evidence": [
+                    9
+                ],
+                "expanded emotion cause span": [
+                    "Chinese food is so delicious . I wish I knew how to cook Chinese food ."
+                ],
+                "type": [
+                    "no-context"
+                ]
+            },
+            {
+                "turn": 10,
+                "speaker": "B",
+                "utterance": "We use different spices but few people use recipes . They learn to cook by experience .",
+                "emotion": "neutral"
+            },
+            {
+                "turn": 11,
+                "speaker": "A",
+                "utterance": "I always use a recipe but my grandmother never did . She was a great cook . She would make clam chowder and cornbread every Sunday night .",
+                "emotion": "neutral"
+            }
+        ]
+    ]
+}

@@ -1,0 +1,13 @@
+# Logs
+lightning_logs
+logs*
+
+# Caches
+_*
+*.pyc
+**/__pycache__/
+backups
+
+
+# model checkpoints
+model/*.ckpt
