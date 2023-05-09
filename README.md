@@ -3,7 +3,7 @@
 Non-official implementation of [Conversational Emotion-Cause Pair Extraction with Guided Mixture of Experts](https://github.com/jdjin3000/PRG-MoE)
 
 수행할 내용: <br>
-추가적인 실험을 위해 다양한 pre-trained model에 대해 generalize, additional metrics, fine-tuning methods 도입 <br>
+ECPE를 수행하는 PRG-MoE 모델을 two-stage model에서 one-stage로 바꿔보려고 함<br>
 pytorch Lightning을 활용<br> 
 
 [PRG-MoE](https://github.com/jdjin3000/PRG-MoE) referenced
@@ -24,12 +24,6 @@ pytorch Lightning을 활용<br>
 
 ## Dataset
 The dataset used in this model is [RECCON dataset](https://github.com/declare-lab/RECCON)
-
-
-현재 모델 상황
-
-
-
 
 ### Commit Conventions (from https://treasurebear.tistory.com/70)
 🎉	`:tada:`	프로젝트 시작	Begin a project.<br>
