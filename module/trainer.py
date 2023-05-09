@@ -125,10 +125,6 @@ class LearningEnv:
         # 모델 저장할 폴더 생성
         if not os.path.exists(self.model_save_path):
             os.makedirs(self.model_save_path)
-        if not os.path.exists(self.model_save_path+'/cause-f1'):
-            os.makedirs(self.model_save_path+'/cause-f1')
-        if not os.path.exists(self.model_save_path+'/joint-f1'):
-            os.makedirs(self.model_save_path+'/joint-f1')
         
         # 모델 인스턴스를 셋팅
         self.set_model()
@@ -138,51 +134,31 @@ class LearningEnv:
         valid_dataloader = self.get_dataloader(self.valid_dataset, self.batch_size, self.num_worker, shuffle=False, contain_context=self.contain_context)
         test_dataloader = self.get_dataloader(self.test_dataset, self.batch_size, self.num_worker, shuffle=False, contain_context=self.contain_context)
         
-        # 두 개의 Trainer 사용 (감정, 원인)
-        # Emotion Epoch
         epoch = self.training_iter
-        # ckpt_filename = f'total-use_test_to_valid-{self.encoder_name_for_filename}{self.data_label}-epoch_{epoch}-lr_{self.learning_rate}-{self.start_time}'
         ckpt_filename = self.log_folder_name
         model = LitPRGMoE(**self.model_args)
-        if self.ckpt_type == 'emotion-f1':
-            monitor_val = "emo 3.weighted-f1"
-        elif self.ckpt_type == 'cause-f1':
-            monitor_val = "binary_cause 5.f1-score"
-        elif self.ckpt_type == 'joint-f1':
-            monitor_val = "emo-cau 3.f1-score"
-            
-        on_best_cause_f1 = ModelCheckpoint(
-            dirpath=self.model_save_path+'/cause-f1',
-            monitor="binary_cause 5.f1-score",
-            save_top_k=1,
-            mode="max",
-            filename=ckpt_filename+'cause-f1')
+        monitor_val = "total-f1" 
         
-        on_best_joint_f1 = ModelCheckpoint(
-            dirpath=self.model_save_path+'/joint-f1',
+        on_best_performance = ModelCheckpoint(
+            dirpath=self.model_save_path,
             save_top_k=1, 
-            monitor="emo-cau 3.f1-score",
+            monitor=monitor_val,
             mode="max",
-            filename=ckpt_filename+'joint-f1')
+            filename=ckpt_filename)
         
         trainer_config = {
             "max_epochs": epoch,
             "strategy": 'ddp_find_unused_parameters_true',
             "check_val_every_n_epoch": 1,
             "accumulate_grad_batches": self.accumulate_grad_batches,
-            "callbacks": [on_best_joint_f1]
+            "callbacks": [on_best_performance]
         }
         trainer = L.Trainer(**trainer_config)
         trainer.fit(model, train_dataloaders=train_dataloader, val_dataloaders=valid_dataloader)
         
-        # # Test for Joint Performance
-        # model_path_joint = f'{self.model_save_path}/joint-f1/{ckpt_filename}joint-f1.ckpt'
-        # model = LitPRGMoE.load_from_checkpoint(checkpoint_path=model_path_joint, **self.model_args)
-        # trainer.test(model, dataloaders=test_dataloader)
-        
-        # Test for Cause Performance
-        model_path_cause = f'{self.model_save_path}/joint-f1/{ckpt_filename}joint-f1.ckpt'
-        model = LitPRGMoE.load_from_checkpoint(checkpoint_path=model_path_cause, **self.model_args)
+        # Test model performance
+        model_path = f'{self.model_save_path}/{ckpt_filename}.ckpt'
+        model = LitPRGMoE.load_from_checkpoint(checkpoint_path=model_path, **self.model_args)
         trainer.test(model, dataloaders=test_dataloader)
     
     def test(self):
